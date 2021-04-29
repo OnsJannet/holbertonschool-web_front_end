@@ -355,21 +355,21 @@ template {
 }
 
 html {
-	scroll-behavior: smooth;
-	font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 body {
-	color: var(--text-color);
-	font-family: var(--font-family-base);
-	font-size: var(--font-size-medium);
+  color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
   line-height: var(--line-height-base);
 
 }
 
 a{
-	color: #161616;
+  color: #161616;
   text-decoration: none;
 }
 
@@ -436,11 +436,11 @@ a:active {
 
 
 .visually-hidden{
-	display: none;
+  display: none;
 }
 
 .card-category{
-	color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .section{
@@ -471,7 +471,7 @@ a:active {
 }
 
 .section-tagline{
-	color: var(--color-primary);
+  color: var(--color-primary);
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
@@ -485,7 +485,7 @@ a:active {
 }
 
 h1 h2 h3 h4 h5 h6{
-	font-family: var(--font-family-title);
+  font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
 
