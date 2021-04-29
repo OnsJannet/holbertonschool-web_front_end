@@ -415,11 +415,11 @@ a:active {
   padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
+.nav .nav-link:hover{
   color: var(--color-white);
 }
 
-.nav .nav-link::before {
+.nav .nav-link::before{
   content: "";
   position: absolute;
   left: 0;
@@ -431,8 +431,9 @@ a:active {
 
 .nav .nav-item:hover .nav-link::before{
   background-color: var(--color-primary);
-  width: 1rem;
+  width: 100%;
 }
+
 
 .visually-hidden{
 	display: none;
