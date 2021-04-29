@@ -522,16 +522,16 @@ ul.row{
 }
 
 .card-services .card-title{
-  margin: none;
+  margin: 0;
 }
 
-.card-services u{
+.card-services a{
   display: block;
   padding: 2rem;
   background-color: var(--color-light-grey)
 }
 
-.card-services u::hover{
+.card-services a::hover{
   color: var(--color-white);
   background-color: var(--color-primaty);
   text-decoration: none;
