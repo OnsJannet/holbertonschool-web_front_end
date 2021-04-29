@@ -465,11 +465,11 @@ a:active {
 }
 
 .card-work:hover .card-inner{
-  background-color: rgba(0, 0, 0, 0.7)
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .card-work:hover .card-outer{
-  transform: scale(0.95)
+  transform: scale(0.95);
 }
 
 .card-work:hover .card-image{
