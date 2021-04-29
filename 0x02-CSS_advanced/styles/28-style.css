@@ -582,7 +582,7 @@ ul.row{
 }
 
 .header{
-  padding: var(--header-padding)
+  padding: var(--header-padding);
 }
 
 .header-logo{
