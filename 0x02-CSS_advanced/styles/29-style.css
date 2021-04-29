@@ -415,7 +415,7 @@ a:active {
   padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover{
+.nav .nav-link:hover {
   color: var(--nav-item-link-hover);
 }
 
@@ -433,7 +433,6 @@ a:active {
   background-color: var(--color-primary);
   width: 100%;
 }
-
 
 .visually-hidden{
   display: none;
