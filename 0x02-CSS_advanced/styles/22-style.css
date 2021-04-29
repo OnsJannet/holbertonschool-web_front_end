@@ -503,6 +503,12 @@ ul.row{
 
 }
 
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
+}
+
 .footer-copyright{
   margin: 0;
   font-size: var(--font-size-small);
@@ -550,10 +556,4 @@ ul.row{
   --nav-item-margin: 0 0 3rem 0;
   --nav-item-link-hover: var(--color-primary);
   --section-tagline-margin: 0;
-}
-
-[data-section-theme=“dark”] {
-  --text-color: var(--color-white);
-  --section-title-color: var(--color-white);
-  background-color: var(--color-black);
 }
