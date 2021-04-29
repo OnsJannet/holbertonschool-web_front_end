@@ -581,15 +581,15 @@ ul.row{
   text-decoration: var(--button-text-decoration);
 }
 
-header{
+.header{
   padding: var(--header-padding)
 }
 
-header .header-logo{
+.header-logo{
   position: var(--header-logo-position);
 }
 
-header .header-logo a{
+.header-logo a{
   display: var(--header-logo-link-display);
   position: var(--header-logo-link-position);
   top: var(--header-logo-top);
