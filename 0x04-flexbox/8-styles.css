@@ -76,7 +76,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: .04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 2rem 0 0;
+    --nav-item-margin: 0 0 0 2rem;
     --nav-item-link-hover: var(--color-white);
   
     /** BUTTON **/
@@ -213,6 +213,7 @@
   }
   
   .nav {
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -224,7 +225,10 @@
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
+    margin: var(--nav-item-margin);
+  }
+
+  .nav .nav-item + .nav-item {
     margin: var(--nav-item-margin);
   }
   
@@ -265,6 +269,10 @@
          background: transparent;
   }
   
+  .header-container {
+    align-items: center;
+  }
+
   .header-logo {
     position: var(--header-logo-position);
   }
@@ -371,7 +379,11 @@
   }
   
   .section-hero .section-inner {
-    padding: 10rem 40rem 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 50vh;
   }
   
   /*** 4. CARD ***/
