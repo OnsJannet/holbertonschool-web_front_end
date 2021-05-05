@@ -646,7 +646,7 @@
       height: auto;
     }
 
-    .post-content p:first-child{
+    .post-content p:first-child {
       font-size: var(--font-size-x-large);
     }
 
