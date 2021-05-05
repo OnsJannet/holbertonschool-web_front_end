@@ -175,22 +175,17 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-
   }
   
   /* Grid
       ============================= */
   
-  .row {
-    display: flex;
-  }
-
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
+    
   }
-  
   [class*='col-'] {
     padding: 0.5rem;
   }
@@ -201,6 +196,9 @@
   
   .col-1-2 {
     width: 50%;
+  }
+  .row{
+    display: flex;
   }
   
   /* Navbar
