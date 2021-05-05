@@ -164,7 +164,7 @@
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
-  }
+    }
   
   /*** 2. LAYOUT ***/
   
@@ -175,7 +175,7 @@
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-  }
+    }
   
   /* Grid
       ============================= */
@@ -264,25 +264,18 @@
   
   .header {
     padding: var(--header-padding);
-         position: relative;
-         z-index: 3;
-         background: transparent;
+    position: relative;
+    z-index: 3;
+    background: transparent;
   }
   
   .header-container {
     align-items: center;
+    display: flex;
+    justify-content: space-between;
   }
 
-  .header-logo {
-    position: var(--header-logo-position);
-  }
-  
-  .header-logo a {
-    display: var(--header-logo-link-display);
-    position: var(--header-logo-link-position);
-    top: var(--header-logo-link-top);
-    left: var(--header-logo-link-left);
-  }
+
   
   /* Footer
       ============================= */
