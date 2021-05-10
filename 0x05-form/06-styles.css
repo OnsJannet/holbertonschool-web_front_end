@@ -28,6 +28,8 @@
     --color-green: #08805b;
   
     --text-color: var(--color-black);
+    --valid-color: var(--color-green);
+    --error-color: var(--color-red);
   
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -352,8 +354,6 @@
   [data-section-theme="dark"] {
     --button-color: var(--color-white);
     --text-color: var(--color-white);
-    --valid-color: var(--color-green);
-    --error-color: var(--color-red);
     --section-title-color: var(--color-white);
     background: var(--color-black);
   }
@@ -775,10 +775,10 @@
     margin: .4rem 0 0;
   }
 
-  /* Form error handling
-  ============================= */
+/* Form error handling
+============================= */
 
-  /* The following code is used to place the icon in the after pseudo element. Because after and before are not possible in an input, we need to use a span that will be positioned on the right of our input. */
+/* The following code is used to place the icon in the after pseudo element. Because after and before are not possible in an input, we need to use a span that will be positioned on the right of our input. */
 
 input:not(:placeholder-shown) ~ .form-field-icon::after {
   height: 100%;
@@ -818,4 +818,3 @@ input:required:valid:not(:placeholder-shown),
 textarea:valid:not(:placeholder-shown) {
   border: 0.1rem solid var(--valid-color);
 }
-
