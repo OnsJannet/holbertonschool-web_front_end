@@ -1,4 +1,4 @@
-# JavaScript advanced
+# JavaScript advanced [![Javascript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]
 
 In this project we will learn:
 
