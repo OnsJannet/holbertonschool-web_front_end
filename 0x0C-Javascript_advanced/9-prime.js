@@ -18,4 +18,4 @@ let t0 = performance.now();
 countPrimeNumbers();
 let t1 = performance.now();
 
-console.log(`Execution time of printing countPrimeNumbers was ${t1- t0} milliseconds`);
+console.log(`Execution time of printing countPrimeNumbers was ${(t1- t0)/100} milliseconds`);
