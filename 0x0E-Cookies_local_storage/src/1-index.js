@@ -1,9 +1,12 @@
 // Creates cookies that expires in 10 days
 
 function setCookies(){
-    document.cookie= `firstname=${document.getElementById('firstname').value}`;
-    document.cookie= `email=${document.getElementById('email').value}`;
+    let date = new Date(Date.now() + 10 * 86400000);
+    date = date.toUTCString();
+    document.cookie= `firstname=${document.getElementById('firstname').value}; expires=${date}`;
+    document.cookie= `email=${document.getElementById('email').value} expires=${date}`;
 }
+
 
 function showCookies() {
     const paragraph = document.createElement('p');
